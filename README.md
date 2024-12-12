@@ -3,11 +3,11 @@
 1. Создаие .env в корневой папке и bet-maker, использовать .env.sample для примера
 2. Сборка Docker файла
 ```
-docker-compose build
+docker compose build
 ```
 3. Поднимаем все контейнеры
 ```
-docker-compouse up
+docker compouse up
 ```
 
 4. Применяем миграции Alembic:
@@ -17,7 +17,7 @@ alembic upgrade head
 
 5. Для доступа к ставкам необходимо получить токен:
 
-## Urls
+# Guide
 
 Создание юзера: http://localhost:8002/api/v1/signup
 
